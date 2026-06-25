@@ -21,7 +21,9 @@ The solution supports:
 
 ## Architecture
 
-The repository contains a small architecture diagram at `architecture/Arch.png` showing the relationship between Connect, Lex, Lambda, Polly, and S3.
+The repository contains an architecture diagram showing the relationship between Amazon Connect, Amazon Lex, Lambda, Polly, and S3.
+
+![Architecture Diagram](architecture/Arch.png)
 
 ### Flow
 
@@ -40,7 +42,21 @@ The repository contains a small architecture diagram at `architecture/Arch.png` 
 - `architecture/`
   - `Arch.png` — architecture diagram.
 - `docs/` — reserved for additional documentation.
-- `screenshots/` — reserved for visuals and sample flow screenshots.
+- `screenshots/` — contains contact flow and Lex/Lambda configuration screenshots.
+
+## Visual Samples
+
+### Contact flow and Lex bot
+
+![Contact Flow](screenshots/02-contact-flow-TechMart Support Flow.png)
+
+### Lex bot definition
+
+![Lex Bot](screenshots/03-lex-bot.png)
+
+### Lambda fulfillment configuration
+
+![Lambda Fulfillment](screenshots/05-lambda-fulfillment.png)
 
 ## Lambda Functions
 
@@ -74,7 +90,7 @@ Behavior:
 
 - Reads `GREETING_TIMEZONE` from environment variables (`Africa/Cairo` by default)
 - Determines `Good morning`, `Good afternoon`, or `Good evening`
-- Uses Amazon Polly to synthesize speech in MP3 format
+- Uses Amazon Polly to synthesize speech in MP3 format with voice `Joanna`
 - Stores output in the S3 bucket configured by `AUDIO_BUCKET`
 - Returns the S3 URI and greeting text
 

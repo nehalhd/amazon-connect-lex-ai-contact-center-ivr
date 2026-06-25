@@ -1,4 +1,4 @@
-# Amazon Connect + Lex + AI Contact Center IVR
+# TechMart -Amazon Connect + Lex + AI Contact Center IVR
 
 A sample AWS contact-center IVR solution built with Amazon Connect, Amazon Lex V2, AWS Lambda, and Amazon Polly. This repository demonstrates a lightweight, extensible architecture for voice-driven customer service interactions, including dynamic greetings and conversational order status fulfillment.
 

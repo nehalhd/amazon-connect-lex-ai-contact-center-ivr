@@ -42,21 +42,6 @@ The repository contains an architecture diagram showing the relationship between
 - `architecture/`
   - `Arch.png` — architecture diagram.
 - `docs/` — reserved for additional documentation.
-- `screenshots/` — contains contact flow and Lex/Lambda configuration screenshots.
-
-## Visual Samples
-
-### Contact flow and Lex bot
-
-![Contact Flow](screenshots/02-contact-flow-TechMart Support Flow.png)
-
-### Lex bot definition
-
-![Lex Bot](screenshots/03-lex-bot.png)
-
-### Lambda fulfillment configuration
-
-![Lambda Fulfillment](screenshots/05-lambda-fulfillment.png)
 
 ## Lambda Functions
 

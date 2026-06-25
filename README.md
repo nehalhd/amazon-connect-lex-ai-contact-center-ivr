@@ -63,13 +63,6 @@ The repository contains an architecture diagram showing the relationship between
 
 ![Lambda Fulfillment](screenshots/05-lambda-fulfillment.png)
 
-### Lambda Greeting Configuration
-
-![Lambda Greeting](screenshots/06-lambda-greeting.png)
-
-### S3 Bucket Setup
-
-![S3 Bucket](screenshots/07-s3-bucket.png)
 
 ## Lambda Functions
 
